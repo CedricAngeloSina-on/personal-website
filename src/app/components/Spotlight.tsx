@@ -8,10 +8,13 @@ const Spotlight: React.FC = () => {
         const handlePointerMove = (event: PointerEvent) => {
             const { clientX, clientY } = event;
 
-            spotlight?.animate({
-                left: `${clientX}px`,
-                top: `${clientY}px`,
-            });
+            spotlight?.animate(
+                {
+                    left: `${clientX}px`,
+                    top: `${clientY}px`,
+                },
+                { duration: 0, fill: "forwards" }
+            );
         };
 
         window.addEventListener("pointermove", handlePointerMove);
