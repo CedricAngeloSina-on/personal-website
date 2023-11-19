@@ -19,3 +19,12 @@
 body {
     color: rgb(var(--foreground-rgb));
 }
+
+.active .nav-indicator {
+    width: 4rem;
+    background-color: white;
+}
+
+.active .nav-text {
+    color: white;
+}
