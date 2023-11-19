@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialLinks = () => {
     return (
-        <ul className="ml-1 mt-5 flex items-center">
+        <ul className="ml-1 mt-4 flex items-center">
             <li className="mr-5 text-xs">
                 <a
                     className="text-gray-600 hover:text-white"

@@ -15,10 +15,10 @@ const Header = () => {
                         Cedric Angelo
                     </Link>
                 </h1>
-                <h2 className="mt-3 font-semibold tracking-tight text-white xs:text-2xl">
+                <h2 className="font-semibold tracking-tight text-white xs:text-2xl">
                     Freelance Web Developer
                 </h2>
-                <p className="mt-4 max-w-xs text-lg tracking-tight text-gray-600">
+                <p className="mt-2 max-w-xs text-lg tracking-tight text-gray-600">
                     Good devs copy, great devs steal
                 </p>
                 <NavBar />
