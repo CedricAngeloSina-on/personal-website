@@ -16,7 +16,7 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`scroll-smooth bg-zinc-950 ${GeistSans.className}`}
+            className={`scroll-smooth bg-neutral-950 ${GeistSans.className}`}
         >
             <body>
                 <Spotlight />

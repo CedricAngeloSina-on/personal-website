@@ -59,7 +59,7 @@ const ExperienceSection = () => {
                 <a
                     className="group inline-flex items-center font-semibold leading-tight text-white"
                     aria-label="View Full Résumé"
-                    href="/resume.pdf"
+                    href="/Sina-on, Cedric Angelo O. Resume .pdf"
                 >
                     <span>
                         <span className="whitespace-nowrap">
