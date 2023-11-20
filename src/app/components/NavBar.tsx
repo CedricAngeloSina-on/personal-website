@@ -1,11 +1,11 @@
 "use client";
 import React, { useEffect } from "react";
-import Link from "next/link";
+import NavItem from "./NavItem";
 
 const NavBar: React.FC = () => {
     const changeNav: IntersectionObserverCallback = (entries, observer) => {
         entries.forEach((entry) => {
-            if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+            if (entry.isIntersecting) {
                 // Your existing logic here
                 const currentActive = document.querySelector(
                     ".active"
@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
 
     useEffect(() => {
         const options: IntersectionObserverInit = {
-            threshold: 0.55,
+            threshold: 0.9,
         };
 
         const observer = new IntersectionObserver(changeNav, options);
@@ -48,31 +48,20 @@ const NavBar: React.FC = () => {
         };
     }, []);
 
+    const navItems = [
+        { id: "#about", title: "ABOUT" },
+        { id: "#experience", title: "EXPERIENCE" },
+        { id: "#projects", title: "PROJECTS" },
+    ];
+
     return (
         <nav className="nav hidden lg:block">
             <ul className="mt-16 w-max">
-                <li>
-                    <Link
-                        className="group-visible group flex items-center py-3"
-                        href="#about"
-                    >
-                        <span className="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-white motion-reduce:transition-none"></span>
-                        <span className="nav-text text-xs font-bold tracking-widest text-gray-600 group-hover:text-white group-focus-visible:text-white">
-                            ABOUT
-                        </span>
-                    </Link>
-                </li>
-                <li>
-                    <Link
-                        className="group-visible group flex items-center py-3"
-                        href="#projects"
-                    >
-                        <span className="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-white motion-reduce:transition-none"></span>
-                        <span className="nav-text text-xs font-bold tracking-widest text-gray-600 group-hover:text-white group-focus-visible:text-white">
-                            PROJECTS
-                        </span>
-                    </Link>
-                </li>
+                {navItems.map((item, index) => (
+                    <li>
+                        <NavItem key={index} id={item.id} title={item.title} />
+                    </li>
+                ))}
             </ul>
         </nav>
     );
