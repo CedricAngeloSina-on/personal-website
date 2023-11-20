@@ -54,7 +54,7 @@ const ExperienceCard: React.FC<ExperienceItemProps> = ({
                 </div>
                 <div className="text-base text-gray-600">{subtitle}</div>
             </h3>
-            <p className="mt-2 text-sm leading-normal text-gray-600">
+            <p className="mt-2 text-sm leading-normal text-gray-400">
                 {description}
             </p>
         </div>
