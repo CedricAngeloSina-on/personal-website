@@ -56,13 +56,13 @@ const NavBar: React.FC = () => {
 
     return (
         <nav className="nav hidden lg:block">
-            <ul className="mt-16 w-max">
+            <ol className="mt-16 w-max">
                 {navItems.map((item, index) => (
-                    <li>
-                        <NavItem key={index} id={item.id} title={item.title} />
+                    <li key={index}>
+                        <NavItem id={item.id} title={item.title} />
                     </li>
                 ))}
-            </ul>
+            </ol>
         </nav>
     );
 };

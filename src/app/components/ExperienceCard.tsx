@@ -1,6 +1,6 @@
 import React from "react";
 
-interface NavItemProps {
+interface ExperienceItemProps {
     period: string;
     href: string;
     title: string;
@@ -9,7 +9,7 @@ interface NavItemProps {
     description: string;
 }
 
-const ExperienceCard: React.FC<NavItemProps> = ({
+const ExperienceCard: React.FC<ExperienceItemProps> = ({
     period,
     href,
     title,
@@ -17,12 +17,12 @@ const ExperienceCard: React.FC<NavItemProps> = ({
     subtitle,
     description,
 }) => (
-    <div className="group relative flex pb-1 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-950/20 lg:group-hover:drop-shadow-lg"></div>
-        <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-600 md:w-3/12">
+    <div className="group relative flex flex-wrap pb-1 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-gray-950/50 lg:group-hover:drop-shadow-lg"></div>
+        <header className="z-10 mb-2 mt-1 text-xs font-semibold tracking-wide text-gray-600 xs:w-full md:w-3/12">
             {period}
         </header>
-        <div className="z-10 md:w-9/12">
+        <div className="z-10 xs:w-full md:w-9/12">
             <h3 className="font-medium leading-snug text-white">
                 <div>
                     <a
@@ -33,7 +33,7 @@ const ExperienceCard: React.FC<NavItemProps> = ({
                     >
                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                         <span>
-                            {title} ·{" "}
+                            {title} •{" "}
                             <span className="inline-block">
                                 {company}
                                 <svg
@@ -52,7 +52,7 @@ const ExperienceCard: React.FC<NavItemProps> = ({
                         </span>
                     </a>
                 </div>
-                <div className="text-gray-600">{subtitle}</div>
+                <div className="text-base text-gray-600">{subtitle}</div>
             </h3>
             <p className="mt-2 text-sm leading-normal">{description}</p>
         </div>
