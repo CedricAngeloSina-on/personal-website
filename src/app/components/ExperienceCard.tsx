@@ -18,7 +18,7 @@ const ExperienceCard: React.FC<ExperienceItemProps> = ({
     description,
 }) => (
     <div className="group relative flex flex-wrap pb-1 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-gray-950/50 lg:group-hover:drop-shadow-lg"></div>
+        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-zinc-950/50 lg:group-hover:drop-shadow-lg"></div>
         <header className="z-10 mb-2 mt-1 text-xs font-semibold tracking-wide text-gray-600 xs:w-full md:w-3/12">
             {period}
         </header>
