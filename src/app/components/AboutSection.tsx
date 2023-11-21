@@ -13,7 +13,7 @@ const AboutSection: React.FC = () => {
                     With self-learned experience, I've honed my skills in web
                     development, excelling with the{" "}
                     <a
-                        className="font-medium text-white hover:text-cyan-300 focus-visible:text-cyan-300"
+                        className="font-medium text-white hover:text-cyan-500 focus-visible:text-cyan-500"
                         href="https://react.dev/"
                         target="_blank"
                         rel="noreferrer"
