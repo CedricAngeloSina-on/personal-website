@@ -31,7 +31,7 @@ const AboutSection: React.FC = () => {
                     </a>{" "}
                     for front-end development. I'm proficient in the{" "}
                     <a
-                        className="font-medium text-white hover:text-slate-300 focus-visible:text-slate-300"
+                        className="font-medium text-white hover:text-slate-400 focus-visible:text-slate-400"
                         href="https://nextjs.org/"
                         target="_blank"
                         rel="noreferrer"
@@ -63,10 +63,62 @@ const AboutSection: React.FC = () => {
                 </p>
                 <p className="mb-4">
                     In addition to my web development prowess, I have a passion
-                    for data analytics. Proficient in Python libraries such as
-                    Numpy, Pandas, Matplotlib, and Seaborn, along with expertise
-                    in Tableau, I leverage my analytical skills to extract
-                    meaningful insights from diverse datasets.
+                    for data analytics. Proficient in{" "}
+                    <a
+                        className="font-medium text-white hover:text-yellow-300 focus-visible:text-yellow-300"
+                        href="https://www.python.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Python
+                    </a>{" "}
+                    libraries such as{" "}
+                    <a
+                        className="font-medium text-white hover:text-sky-800 focus-visible:text-sky-800"
+                        href="https://numpy.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Numpy
+                    </a>
+                    ,{" "}
+                    <a
+                        className="font-medium text-white hover:text-violet-600 focus-visible:text-violet-600"
+                        href="https://pandas.pydata.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Pandas
+                    </a>
+                    ,{" "}
+                    <a
+                        className="font-medium text-white hover:text-cyan-700 focus-visible:text-cyan-700"
+                        href="https://matplotlib.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Matplotlib
+                    </a>
+                    , and{" "}
+                    <a
+                        className="font-medium text-white hover:text-blue-800 focus-visible:text-blue-800"
+                        href="https://seaborn.pydata.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Seaborn
+                    </a>
+                    , along with expertise in{" "}
+                    <a
+                        className="font-medium text-white hover:text-sky-300 focus-visible:text-sky-300"
+                        href="https://www.tableau.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Tableau
+                    </a>
+                    , I leverage my analytical skills to extract meaningful
+                    insights from diverse datasets.
                 </p>
                 <p>
                     This dual expertise uniquely positions me at the
