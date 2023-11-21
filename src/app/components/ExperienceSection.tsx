@@ -1,8 +1,6 @@
 import React from "react";
 import HeaderMobile from "./HeaderMobile";
 import ExperienceCard from "./ExperienceCard";
-import Link from "next/link";
-import Image from "next/image";
 
 const ExperienceSection = () => {
     const experienceItems = [

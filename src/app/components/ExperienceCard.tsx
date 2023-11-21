@@ -1,5 +1,4 @@
 import React from "react";
-
 interface ExperienceItemProps {
     period: string;
     href: string;

@@ -1,7 +1,5 @@
 import React from "react";
 import HeaderMobile from "./HeaderMobile";
-import Link from "next/link";
-import Image from "next/image";
 
 const ProjectsSection = () => {
     return (
