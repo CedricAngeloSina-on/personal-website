@@ -23,7 +23,7 @@ const SocialLinks = () => {
             <li className="mr-5 text-xs">
                 <a
                     className="text-gray-600 hover:text-white"
-                    href="https://twitter.com/bchiang7"
+                    href="discordapp.com/users/439861611780505620"
                     target="_blank"
                     rel="noreferrer"
                 >
