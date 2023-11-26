@@ -1,33 +1,38 @@
 import React from "react";
 import HeaderMobile from "./HeaderMobile";
+import ProjectCard from "./ProjectCard";
 
 const ProjectsSection = () => {
+    const projectItems = [
+        {
+            href: "https://bocchimenu.vercel.app",
+            title: "Bocchi the Rock Cafe Menu!",
+            description:
+                "Showcases a customizable set menu, with food and drink inspired by the characters from Bocchi the Rock!",
+            imgsrc: "/images/bocchimenu.jpg",
+            imgalt: "Bocchi the Rock Cafe Menu",
+        },
+    ];
+
     return (
         <section
             id="projects"
             className="mb-16 scroll-mt-16 text-white md:mb-24 lg:mb-36 lg:scroll-mt-24"
         >
             <HeaderMobile title="PROJECTS" />
-            <div className="text-gray-400">
-                <p className="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam rutrum iaculis neque sollicitudin eleifend. In hac
-                    habitasse platea dictumst. Duis fermentum mauris ut ultrices
-                    pretium. Quisque non tortor id ipsum accumsan euismod. Nunc
-                    semper non massa ac pretium. Donec elit risus, euismod et
-                    malesuada ac, gravida quis leo. Nunc sed sodales leo, eget
-                    ornare erat. Sed pharetra, augue ac blandit vestibulum,
-                    nulla felis accumsan risus, eu elementum libero sapien in
-                    metus.
-                </p>
-                <p className="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam rutrum iaculis neque sollicitudin eleifend. In hac
-                    habitasse platea dictumst. Duis fermentum mauris ut ultrices
-                    pretium. Quisque non tortor id ipsum accumsan euismod. Nunc
-                    semper non massa ac pretium.
-                </p>
-            </div>
+            <ul className="group/list">
+                {projectItems.map((item, index) => (
+                    <li className="mb-12" key={index}>
+                        <ProjectCard
+                            href={item.href}
+                            title={item.title}
+                            description={item.description}
+                            imgsrc={item.imgsrc}
+                            imgalt={item.imgsrc}
+                        />
+                    </li>
+                ))}
+            </ul>
         </section>
     );
 };
