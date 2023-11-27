@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderMobile from "./HeaderMobile";
 import ExperienceCard from "./ExperienceCard";
-import TextWithIcon from "./TextWithIcon";
+import LinkWithIcon from "./LinkWithIcon";
 
 const ExperienceSection = () => {
     const experienceItems = [
@@ -54,14 +54,10 @@ const ExperienceSection = () => {
                     </li>
                 ))}
             </ul>
-            <div className="mt-12">
-                <a
-                    className="group inline-flex items-center font-semibold leading-tight text-white"
-                    href="/Sina-on, Cedric Angelo Oñate - Resume.pdf"
-                >
-                    <TextWithIcon text="See Full Résumé" />
-                </a>
-            </div>
+            <LinkWithIcon
+                href="/Sina-on, Cedric Angelo O. Resume .pdf"
+                text="See Full Résumé"
+            />
         </section>
     );
 };
