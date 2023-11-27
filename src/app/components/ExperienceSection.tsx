@@ -55,7 +55,7 @@ const ExperienceSection = () => {
                 ))}
             </ul>
             <LinkWithIcon
-                href="/Sina-on, Cedric Angelo O. Resume .pdf"
+                href="/Sina-on, Cedric Angelo Oñate - Resume.pdf"
                 text="See Full Résumé"
             />
         </section>
