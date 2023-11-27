@@ -8,12 +8,7 @@ const Header = () => {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
                 <h1 className="font-extrabold tracking-tight text-sky-400 xs:text-4xl sm:text-5xl">
-                    <Link
-                        className="group-visible group flex items-center"
-                        href="/"
-                    >
-                        Cedric Sina-on
-                    </Link>
+                    <Link href="/">Cedric Sina-on</Link>
                 </h1>
                 <h2 className="mt-3 font-semibold tracking-tight text-white xs:text-2xl">
                     Freelance Web Developer
