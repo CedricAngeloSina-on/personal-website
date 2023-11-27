@@ -5,46 +5,39 @@ import ProjectTableRow from "../components/ProjectTableRow";
 export default function Projects() {
     const projectRowItems = [
         {
+            title: "Personal Website",
+            company: "",
+            technologies: ["Nextjs", "React", "Vercel", "Tailwind CSS", "HTML"],
+            linktext: "cedricsina-on.vercel.app",
+            href: "https://cedricsina-on.vercel.app",
+        },
+        {
+            title: "Netbeans Activity Point of Sale",
+            company: "",
+            technologies: ["Java"],
+            linktext: "Github",
+            href: "https://github.com/CedricAngeloSina-on/java-netbeans-activity",
+        },
+        {
             title: "Bocchi the Rock Cafe Menu!",
+            company: "",
             technologies: ["HTML", "CSS", "Javascript"],
             linktext: "bocchimenu.vercel.app",
             href: "https://bocchimenu.vercel.app",
         },
         {
-            title: "Bocchi the Rock Cafe Menu!",
+            title: "Steins;Gate Fan-Made Site (Immersion Project)",
+            company: "Maven Solutions Inc.",
             technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
+            linktext: "sgfansite.vercel.app",
+            href: "https://sgfansite.vercel.app",
         },
         {
-            title: "Bocchi the Rock Cafe Menu!",
+            title: "Sapatos ni Danyl (Immersion Project)",
+            company: "Maven Solutions Inc.",
             technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
-        },
-        {
-            title: "Bocchi the Rock Cafe Menu!",
-            technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
-        },
-        {
-            title: "Bocchi the Rock Cafe Menu!",
-            technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
-        },
-        {
-            title: "Bocchi the Rock Cafe Menu!",
-            technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
-        },
-        {
-            title: "Bocchi the Rock Cafe Menu!",
-            technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "bocchimenu.vercel.app",
-            href: "https://bocchimenu.vercel.app",
+            linktext: "sapatos-ni-danyl.vercel.app",
+            href: "https://sapatos-ni-danyl.vercel.app",
         },
     ];
 
@@ -73,15 +66,18 @@ export default function Projects() {
                     All Projects
                 </h1>
                 <table className="mt-12 w-full border-collapse text-left">
-                    <thead className="sticky top-0 z-10 border-b border-slate-300/10 px-6 py-5">
+                    <thead className="sticky top-0 z-10 border-b border-white/10 px-6 py-5">
                         <tr>
-                            <th className="py-4 pr-8 text-base font-semibold text-slate-200">
+                            <th className="py-4 pr-8 text-base font-semibold text-white">
                                 Project
                             </th>
-                            <th className="hidden py-4 pr-8 text-base font-semibold text-slate-200 lg:table-cell">
+                            <th className="hidden py-4 pr-8 text-base font-semibold text-white sm:table-cell">
+                                Made at
+                            </th>
+                            <th className="hidden py-4 pr-8 text-base font-semibold text-white lg:table-cell">
                                 Built with
                             </th>
-                            <th className="hidden py-4 pr-8 text-base font-semibold text-slate-200 sm:table-cell">
+                            <th className="hidden py-4 pr-8 text-base font-semibold text-white sm:table-cell">
                                 Link
                             </th>
                         </tr>
@@ -91,6 +87,7 @@ export default function Projects() {
                             <ProjectTableRow
                                 key={index}
                                 title={projectRowItem.title}
+                                company={projectRowItem.company}
                                 technologies={projectRowItem.technologies}
                                 linktext={projectRowItem.linktext}
                                 href={projectRowItem.href}
