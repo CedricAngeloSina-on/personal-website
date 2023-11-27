@@ -12,7 +12,7 @@ const Header = () => {
                         className="group-visible group flex items-center"
                         href="/"
                     >
-                        Cedric Angelo
+                        Cedric Sina-on
                     </Link>
                 </h1>
                 <h2 className="mt-3 font-semibold tracking-tight text-white xs:text-2xl">

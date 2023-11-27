@@ -25,7 +25,6 @@ const ProjectCard: React.FC<ProjectItemProps> = ({
                     href={href}
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="brittanychiang.com (v4)"
                 >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                     <span>
@@ -36,7 +35,6 @@ const ProjectCard: React.FC<ProjectItemProps> = ({
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
                                 className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none"
-                                aria-hidden="true"
                             >
                                 <path
                                     fillRule="evenodd"

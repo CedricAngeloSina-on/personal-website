@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderMobile from "./HeaderMobile";
 import ProjectCard from "./ProjectCard";
+import LinkWithIcon from "./LinkWithIcon";
 
 const ProjectsSection = () => {
     const projectItems = [
@@ -33,6 +34,7 @@ const ProjectsSection = () => {
                     </li>
                 ))}
             </ul>
+            <LinkWithIcon href="/projects" text="See All Projects" />
         </section>
     );
 };
