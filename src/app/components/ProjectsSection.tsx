@@ -39,8 +39,9 @@ const ProjectsSection = () => {
                 <Link
                     className="group inline-flex items-center font-semibold leading-tight text-white"
                     href="/projects"
-                ></Link>
-                <TextWithIcon text="See All Projects" />
+                >
+                    <TextWithIcon text="See All Projects" />
+                </Link>
             </div>
         </section>
     );

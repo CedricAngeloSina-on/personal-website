@@ -58,8 +58,9 @@ const ExperienceSection = () => {
                 <a
                     className="group inline-flex items-center font-semibold leading-tight text-white"
                     href="/Sina-on, Cedric Angelo Oñate - Resume.pdf"
-                ></a>
-                <TextWithIcon text="See Full Résumé" />
+                >
+                    <TextWithIcon text="See Full Résumé" />
+                </a>
             </div>
         </section>
     );
