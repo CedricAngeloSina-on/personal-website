@@ -73,7 +73,7 @@ export default function Projects() {
                     All Projects
                 </h1>
                 <table className="mt-12 w-full border-collapse text-left">
-                    <thead className="sticky top-0 z-10 border-b border-slate-300/10 px-6 py-5 backdrop-blur">
+                    <thead className="sticky top-0 z-10 border-b border-slate-300/10 px-6 py-5">
                         <tr>
                             <th className="py-4 pr-8 text-base font-semibold text-slate-200">
                                 Project
