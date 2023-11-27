@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import HeaderMobile from "./HeaderMobile";
 import ProjectCard from "./ProjectCard";
-import LinkWithIcon from "./LinkWithIcon";
+import TextWithIcon from "./TextWithIcon";
 
 const ProjectsSection = () => {
     const projectItems = [
@@ -34,7 +35,13 @@ const ProjectsSection = () => {
                     </li>
                 ))}
             </ul>
-            <LinkWithIcon href="/projects" text="See All Projects" />
+            <div className="mt-12">
+                <Link
+                    className="group inline-flex items-center font-semibold leading-tight text-white"
+                    href="/projects"
+                ></Link>
+                <TextWithIcon text="See All Projects" />
+            </div>
         </section>
     );
 };
