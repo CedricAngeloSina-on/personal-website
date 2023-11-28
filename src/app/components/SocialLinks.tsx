@@ -9,6 +9,7 @@ const SocialLinks = () => {
                     href="https://github.com/CedricAngeloSina-on"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Goes to Cedric Angelo Sina-on's Github"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ const SocialLinks = () => {
                     href="https://discordapp.com/users/439861611780505620"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Goes to Cedric Angelo Sina-on's Discord Profile"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +45,7 @@ const SocialLinks = () => {
                     href="https://www.linkedin.com/in/cedric-angelo-sina-on-416ab1258"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Goes to Cedric Angelo Sina-on's LinkedIn"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
