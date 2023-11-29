@@ -12,6 +12,20 @@ export default function Projects() {
             href: "https://cedricsina-on.vercel.app",
         },
         {
+            title: "Steins;Gate Fan-Made Site (Immersion Project)",
+            company: "Maven Solutions Inc.",
+            technologies: ["HTML", "CSS", "Javascript"],
+            linktext: "sgfansite.vercel.app",
+            href: "https://sgfansite.vercel.app",
+        },
+        {
+            title: "Sapatos ni Danyl (Immersion Project)",
+            company: "Maven Solutions Inc.",
+            technologies: ["HTML", "CSS", "Javascript"],
+            linktext: "sapatos-ni-danyl.vercel.app",
+            href: "https://sapatos-ni-danyl.vercel.app",
+        },
+        {
             title: "Netbeans Activity Point of Sale",
             company: "",
             technologies: ["Java"],
@@ -26,18 +40,11 @@ export default function Projects() {
             href: "https://bocchimenu.vercel.app",
         },
         {
-            title: "Steins;Gate Fan-Made Site (Immersion Project)",
-            company: "Maven Solutions Inc.",
+            title: "Arknights Fan-Made Site",
+            company: "",
             technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "sgfansite.vercel.app",
-            href: "https://sgfansite.vercel.app",
-        },
-        {
-            title: "Sapatos ni Danyl (Immersion Project)",
-            company: "Maven Solutions Inc.",
-            technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "sapatos-ni-danyl.vercel.app",
-            href: "https://sapatos-ni-danyl.vercel.app",
+            linktext: "akfansite.vercel.app",
+            href: "https://akfansite.vercel.app",
         },
     ];
 
