@@ -22,8 +22,8 @@ export default function Projects() {
             title: "Sapatos ni Danyl (Immersion Project)",
             company: "Maven Solutions Inc.",
             technologies: ["HTML", "CSS", "Javascript"],
-            linktext: "sapatos-ni-danyl.vercel.app",
-            href: "https://sapatos-ni-danyl.vercel.app",
+            linktext: "danyl-sapatos.vercel.app",
+            href: "https://danyl-sapatos.vercel.app",
         },
         {
             title: "Netbeans Activity Point of Sale",
