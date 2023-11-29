@@ -13,7 +13,7 @@ const LinkWithIcon: React.FC<LinkItemProps> = ({ href, text }) => (
             href={href}
         >
             <span>
-                <span className="whitespace-nowrap">
+                <span className="whitespace-nowrap ">
                     <span className="border-b border-transparent pb-px transition group-hover:border-sky-400 motion-reduce:transition-none">
                         {text}
                     </span>
