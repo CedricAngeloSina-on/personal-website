@@ -67,7 +67,7 @@ export default function Projects() {
                             clipRule="evenodd"
                         ></path>
                     </svg>
-                    Cedric Sina-on
+                    Cedric Angelo Sina-on
                 </Link>
                 <h1 className="font-extrabold tracking-tight text-white xs:text-4xl sm:text-5xl">
                     All Projects
