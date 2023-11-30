@@ -13,7 +13,7 @@ const Header = () => {
                 <h2 className="mt-3 text-2xl font-semibold tracking-tight text-white">
                     Freelance Web Developer
                 </h2>
-                <p className="mt-2 max-w-xs text-lg tracking-tight text-gray-400">
+                <p className="mt-2 max-w-xs text-lg tracking-tight text-gray-600">
                     Good devs copy, great devs steal
                 </p>
                 <NavBar />
