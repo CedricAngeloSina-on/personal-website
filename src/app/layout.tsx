@@ -14,8 +14,8 @@ export const metadata: Metadata = {
         images: [
             {
                 url: "https://cedricsina-on.vercel.app/images/homepage.jpg",
-                width: 1800,
-                height: 1600,
+                width: 1900,
+                height: 1080,
                 alt: "Homepage - Cedric Angelo Sina-on",
             },
         ],
