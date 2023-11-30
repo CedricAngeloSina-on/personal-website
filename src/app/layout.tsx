@@ -13,12 +13,12 @@ export const metadata: Metadata = {
         siteName: "cedricsina-on.vercel.app",
         images: [
             {
-                url: "/images/homepage.jpg",
+                url: "https://cedricsina-on.vercel.app/images/homepage.jpg",
                 width: 800,
                 height: 600,
             },
             {
-                url: "/images/homepage.jpg",
+                url: "https://cedricsina-on.vercel.app/images/homepage.jpg",
                 width: 1800,
                 height: 1600,
                 alt: "Homepage - Cedric Angelo Sina-on",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         title: "cedricsina-on.vercel.app",
         description: "Cedric Angelo Sina-on - Portfolio",
         creator: "@DegenLasiii",
-        images: ["/images/homepage.jpg"],
+        images: ["https://cedricsina-on.vercel.app/images/homepage.jpg"],
     },
 };
 
