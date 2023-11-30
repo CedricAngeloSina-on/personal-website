@@ -26,7 +26,10 @@ export const metadata: Metadata = {
         title: "cedricsina-on.vercel.app",
         description: "Cedric Angelo Sina-on - Portfolio",
         creator: "@DegenLasiii",
-        images: ["https://cedricsina-on.vercel.app/images/homepage.jpg"],
+        images: {
+            url: "https://cedricsina-on.vercel.app/images/homepage.jpg",
+            alt: "Homepage - Cedric Angelo Sina-on",
+        },
     },
 };
 
