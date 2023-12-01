@@ -6,7 +6,7 @@ import LinkWithIcon from "./LinkWithIcon";
 const ExperienceSection = () => {
     const experienceItems = [
         {
-            period: "DEC 2023 — PRESENT",
+            period: "2023 — PRESENT",
             href: "https://www.isatu.edu.ph",
             title: "Project Programmer",
             company: "Iloilo Science and Technology University",
