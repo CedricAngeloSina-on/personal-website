@@ -10,7 +10,7 @@ const ExperienceSection = () => {
             href: "https://www.isatu.edu.ph",
             title: "Back-End Web Developer",
             company: "Iloilo Science and Technology University",
-            subtitle: "Programmer",
+            subtitle: "Project Programmer",
             description:
                 "Incharge on the back-end and database design for the Integrating Data for Economic Analysis Management System (IDEAMS) for Guimaras Province is an intergovernmental collaboration to accelerate the effective use of data measures to inform the improvement of local economic development programs and service delivery for local governments.",
         },
