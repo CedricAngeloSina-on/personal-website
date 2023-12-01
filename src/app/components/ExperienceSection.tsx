@@ -6,11 +6,11 @@ import LinkWithIcon from "./LinkWithIcon";
 const ExperienceSection = () => {
     const experienceItems = [
         {
-            period: "2023 — PRESENT",
+            period: "DEC 2023 — PRESENT",
             href: "https://www.isatu.edu.ph",
-            title: "Back-End Web Developer",
+            title: "Project Programmer",
             company: "Iloilo Science and Technology University",
-            subtitle: "Project Programmer",
+            subtitle: "Back-End Programmer",
             description:
                 "Incharge on the back-end and database design for the Integrating Data for Economic Analysis Management System (IDEAMS) for Guimaras Province is an intergovernmental collaboration to accelerate the effective use of data measures to inform the improvement of local economic development programs and service delivery for local governments.",
         },
