@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
-import Spotlight from "./components/Spotlight";
+import Spotlight from "../components/Spotlight";
 
 export const metadata: Metadata = {
     title: "Cedric Angelo Sina-on",

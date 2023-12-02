@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ProjectTableRow from "../components/ProjectTableRow";
+import ProjectTableRow from "../../components/ProjectTableRow";
 
 export default function Projects() {
     const projectRowItems = [
