@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 type LinkItemProps = {
     href: string;
@@ -8,7 +7,7 @@ type LinkItemProps = {
 
 const LinkWithIcon: React.FC<LinkItemProps> = ({ href, text }) => (
     <div className="mt-12">
-        <Link
+        <a
             className="group inline-flex items-center font-semibold leading-tight text-white"
             href={href}
         >
@@ -31,7 +30,7 @@ const LinkWithIcon: React.FC<LinkItemProps> = ({ href, text }) => (
                     </svg>
                 </span>
             </span>
-        </Link>
+        </a>
     </div>
 );
 
