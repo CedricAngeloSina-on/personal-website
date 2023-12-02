@@ -1,12 +1,12 @@
 import React from "react";
 
-interface TableRowItemProps {
+type TableRowItemProps = {
     title: string;
     company: string;
     technologies: string[];
     linktext: string;
     href: string;
-}
+};
 
 const ProjectTableRow: React.FC<TableRowItemProps> = ({
     title,

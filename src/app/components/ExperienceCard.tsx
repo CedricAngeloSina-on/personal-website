@@ -1,12 +1,13 @@
 import React from "react";
-interface ExperienceItemProps {
+
+type ExperienceItemProps = {
     period: string;
     href: string;
     title: string;
     company: string;
     subtitle: string;
     description: string;
-}
+};
 
 const ExperienceCard: React.FC<ExperienceItemProps> = ({
     period,

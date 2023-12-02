@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-interface NavItemProps {
+
+type NavItemProps = {
     id: string;
     title: string;
-}
+};
 
 const NavItem: React.FC<NavItemProps> = ({ id, title }) => (
     <Link className="group-visible group flex items-center py-3" href={id}>

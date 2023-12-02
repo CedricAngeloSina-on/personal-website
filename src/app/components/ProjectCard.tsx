@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-interface ProjectItemProps {
+type ProjectItemProps = {
     href: string;
     title: string;
     description: string;
     imgsrc: string;
     imgalt: string;
-}
+};
 
 const ProjectCard: React.FC<ProjectItemProps> = ({
     href,

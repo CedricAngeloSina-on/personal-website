@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-interface LinkItemProps {
+type LinkItemProps = {
     href: string;
     text: string;
-}
+};
 
 const LinkWithIcon: React.FC<LinkItemProps> = ({ href, text }) => (
     <div className="mt-12">
