@@ -17,7 +17,7 @@ const ExperienceSection = () => {
         {
             period: "FEB — MAY 2023",
             href: "https://www.kabertek.com",
-            title: "Junior Web Developer",
+            title: "Intern Web Developer",
             company: "Kabertek Inc.",
             subtitle: "Student Intern",
             description:
