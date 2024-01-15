@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
 
     useEffect(() => {
         const options: IntersectionObserverInit = {
-            threshold: 0.9,
+            threshold: 0.8,
         };
 
         const observer = new IntersectionObserver(changeNav, options);
