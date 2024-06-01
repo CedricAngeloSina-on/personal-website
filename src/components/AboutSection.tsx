@@ -18,16 +18,24 @@ const AboutSection: React.FC = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        React
+                        React,
                     </a>{" "}
-                    library and{" "}
                     <a
                         className="font-medium text-white hover:text-sky-500 focus-visible:text-sky-500"
                         href="https://tailwindcss.com/"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Tailwind CSS
+                        Tailwind CSS,
+                    </a>{" "}
+                    and{" "}
+                    <a
+                        className="font-medium text-white hover:text-gray-600 focus-visible:text-gray-600"
+                        href="https://ui.shadcn.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        shadcn/ui
                     </a>{" "}
                     for front-end development. I'm proficient in the{" "}
                     <a
@@ -40,12 +48,37 @@ const AboutSection: React.FC = () => {
                     </a>{" "}
                     framework and utilize{" "}
                     <a
+                        className="font-medium text-white hover:text-lime-400 focus-visible:text-lime-400"
+                        href="https://orm.drizzle.team/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        DrizzleORM
+                    </a>{" "}
+                    to connect to databases such as{" "}
+                    <a
                         className="font-medium text-white hover:text-orange-500 focus-visible:text-orange-500"
                         href="https://www.mysql.com/"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        MySQL
+                        MySQL,
+                    </a>{" "}
+                    <a
+                        className="font-medium text-white hover:text-sky-900 focus-visible:text-sky-900"
+                        href="https://www.postgresql.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        PostgresSQL,
+                    </a>{" "}
+                    <a
+                        className="font-medium text-white hover:text-teal-200 focus-visible:text-teal-200"
+                        href="https://neon.tech/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Neon Serverless Postgres,
                     </a>{" "}
                     and{" "}
                     <a
@@ -55,11 +88,10 @@ const AboutSection: React.FC = () => {
                         rel="noreferrer"
                     >
                         Supabase
-                    </a>{" "}
-                    for databases. Specializing in creating visually appealing
-                    and dynamic web applications, I seamlessly integrate both
-                    client and server-side scripting for optimal user
-                    experiences.
+                    </a>
+                    . Specializing in creating visually appealing and dynamic
+                    web applications, I seamlessly integrate both client and
+                    server-side scripting for optimal user experiences.
                 </p>
                 <p className="mb-4">
                     In addition to my web development prowess, I have a passion
@@ -79,27 +111,25 @@ const AboutSection: React.FC = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Numpy
-                    </a>
-                    ,{" "}
+                        Numpy,
+                    </a>{" "}
                     <a
                         className="font-medium text-white hover:text-violet-600 focus-visible:text-violet-600"
                         href="https://pandas.pydata.org/"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Pandas
-                    </a>
-                    ,{" "}
+                        Pandas,
+                    </a>{" "}
                     <a
                         className="font-medium text-white hover:text-cyan-700 focus-visible:text-cyan-700"
                         href="https://matplotlib.org/"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Matplotlib
-                    </a>
-                    , and{" "}
+                        Matplotlib,
+                    </a>{" "}
+                    and{" "}
                     <a
                         className="font-medium text-white hover:text-blue-800 focus-visible:text-blue-800"
                         href="https://seaborn.pydata.org/"
