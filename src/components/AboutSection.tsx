@@ -91,7 +91,7 @@ const AboutSection: React.FC = () => {
                     </a>
                     . Specializing in creating visually appealing and dynamic
                     web applications, I seamlessly integrate both client and
-                    server-side scripting for optimal user experiences.
+                    server-side rendering for optimal user experiences.
                 </p>
                 <p className="mb-4">
                     In addition to my web development prowess, I have a passion
